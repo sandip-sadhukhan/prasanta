@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+html{
+    scroll-behavior: smooth !important;
+    font-family: 'Open sans', sans-serif;
+}
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('img/loading.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+/* NAVBER STYLE START */
+
+.logo{
+    color:white !important;
+    font-family: 'Pacifico', sans-serif !important;
+    font-size: 23px;
+}
+nav{
+    background-color:rgba(52, 73, 94,.89)!important;
+    text-align: center;
+   
+}
+.nav-link
+{
+    color:rgba(255,255,255,.7) !important;
+    font-size: 20px;
+    padding:5px 15px !important;
+    font-family: 'Roboto' ,sans-serif;
+    display: inline-block !important;}
+.nav-item:hover .nav-link{
+    color:white !important;
+}
+.active a{
+    color:red !important;
+}
+/* NAVBER STYLE END */
+/* CAROSIL STYLE START */
+.carousel-inner img{
+    width:100%;
+    height:100vh !important;
+}
+/* CAROUSEL STYLE END */
+/* ABOUT ME START */
+.about-me{
+    background-color:#E9ECEF !important;
+    color:rgba(0,0,0,.7);
+}
+.title-heading{
+    font-family: "Righteous",sans-serif;
+    font-weight: lighter !important;
+    color:rgba(0,0,0,.6) !important;
+}
+.card img{
+    border-radius:15px;
+    box-shadow:4px 5px 10px grey;
+}
+.para1{
+    font-size:22px;
+    margin-bottom: 50px !important;
+}
+#action-btn{
+    padding:12px 70px;
+    margin-left:160px;
+
+    font-size:30px;
+    font-family: 'Oswald', sans-serif;
+    background-color:dodgerblue;
+    color: whitesmoke;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+#action-btn:hover{
+    text-decoration: none !important;
+    background-color:#E9ECEF;
+    color:rgba(0,0,0,.7);
+    border:2px solid dodgerblue;
+}
+/* ABOUT ME END */
+/* SERVICES START */
+#services{
+    background-image: linear-gradient(to right,rgba(0,0,0,.75),rgba(0,0,0,.75)) ,url("img/back.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading-i i{
+    color:#f1c40f;
+    font-size:35px;
+}
+.heading-i{
+    font-size:28px;
+    font-family: 'Oswald',sans-serif;
+    color:white !important;
+    font-weight: 900;
+}
+.title-heading1{
+    font-family: "Righteous",sans-serif;
+    font-weight: lighter !important;
+    color:rgba(255,255,255,1) !important;
+}
+.services-pack p{
+    text-align:justify;
+    font-size:20px;
+    color:white;
+    font-family: "Lato";
+}
+.services{
+    padding-bottom:60px;
+}
+#p1{
+    margin-left:43px;
+}
+#p2{
+    margin-left:51px;
+}
+#p3{
+    margin-left:46px;
+}
+/* SERVICES END */
+/* GALLERY START */
+.picture{
+    box-shadow:3px 5px 7px black;
+}
+#gallery{
+    background-color:rgba(162, 155, 254,.4) !important;
+}
+/* GALLERY END */
+/* CONTACT US START */
+#contactus{
+    background:linear-gradient(to right, #009fff, #ec2f4b) !important;
+}
+#text-p{
+    color:white;
+    font-size:24px;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.4rem;
+}
+
+/* CONTACT US END */
+
+/* MEDIA QUARY START*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .carousel-inner img{
+        width:100%;
+        height:300px !important;
+    }
+    .title-heading, .title-heading1{
+        font-size:50px;
+    }
+    .about-me {
+        text-align: justify;
+        align-items: center;
+        padding:15px;
+    }
+    #aboutme .card {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        
+        width:14rem !important;
+    }
+    #aboutme{
+        padding:20px !important;
+    }
+    #aboutme div{
+        padding: 0px !important;
+    }
+    #aboutme .title-heading{
+        padding-bottom: 20px !important;
+    }
+    .para1{
+        padding:30px 20px !important;
+        font-size:18px !important;
+    }
+    #action-btn{
+        margin-top:10px !important;
+        margin-bottom: 120px !important;
+    }
+    #text-p span{
+        margin:0px !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* MEDIA QUARY END */
